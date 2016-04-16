@@ -44,7 +44,6 @@ public class MyLinkedListTest {
 	 */
 	@Test
 	public void testMyArrayList() {
-		assertThat(Arrays.asList("foo", "bar"), containsInAnyOrder(equalTo("foo")));
 		assertThat(mll.size(), is(3));
 	}
 
